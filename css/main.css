@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {margin:0 auto; background-color:#1289A7; min-width:477px;
+    font-family: cooper-black-std, serif; font-weight: 400;
+    font-style: normal; font-family: 'Raleway', sans-serif; color:#333333}
+#header, #contents, #footer {margin:0 auto; position: relative;}
+#footer {background-color:#ffffff;}
+.container {max-width:984px; margin:0 auto; position:relative;
+    overflow: hidden;}
+#footer .copy {text-transform:uppercase;}
+#footer .copy span {font-weight:bold; color:#1a4731;}
+
+@media (max-width:479px) {   
+    /* header */
+    #header { margin-top:10px;}
+    #header .container {margin:15px 15px 0;}
+  
+    #header .logoTitle {position: absolute; bottom:15px; right:25px;}
+    #header .logoTitle a {font-size:50px; font-weight:900; color:#1a4731;
+        text-shadow:4px 0px 1px #ffffff;}
+
+    /* footer */
+    #footer .container {height:150px; text-align:center;}
+    #footer p {font-size:12px; text-align:center; width:100%;}
+    #footer .sns {overflow:hidden; margin:25px auto 20px; width:220px;}
+    #footer .sns li {float:left; }
+    #footer .sns li a {display:block; width:60px; height:60px; border-radius:50%;
+        background-color:#1a4731;}
+    #footer .sns li a i {display:block; line-height:60px; text-align:center;
+        color:#ffffff; font-size:30px;;}
+    #footer .sns li:nth-child(2) {margin:0 20px;}
+}    
+    
+@media (min-width:480px) and (max-width:767px) {   
+    /* header */
+    #header .container {margin:15px 15px 0;}
+    #header .container {margin-top:0px;}
+    #header { width:95%; height:30px; background:#EE5A24; margin-top:10px;}
+    
+
+    #header .logoTitle {margin-bottom:130px;}
+
+    #header .logoTitle a {font-size:50px; font-weight:900; color:#FFC312;
+        text-shadow:4px 0px 1px #0652DD;}
+
+   
+    
+    /* footer */
+    #footer .container {height:100px; line-height:100px;}
+    #footer p {margin-right:50px; font-size:16px; float:right;}
+    #footer .sns {float:left; margin-top:35px; margin-left:50px;
+        overflow:hidden; display:inline-block;}
+    #footer .sns li {float:left; }
+    #footer .sns li a {display:block; width:45px; height:45px; border-radius:50%;
+        background-color:#1a4731;sh}
+    #footer .sns li a i {display:block; line-height:45px; text-align:center;
+        color:#ffffff; font-size:24px;;}
+    #footer .sns li:nth-child(2) {margin:0 20px;}
+}    
+
+@media (min-width:768px) and (max-width:1023px) {   
+    /* header */
+    #header .container {margin:15px 20px 0;}
+    #header .container {margin-top:0px;}
+    #header { width:95%; height:50px; background:#EE5A24; margin-top:20px;}
+    
+
+    #header .logoTitle {margin-bottom:130px;}
+
+    #header .logoTitle a {font-size:80px; font-weight:900; color:#9980FA;
+        text-shadow:4px 0px 1px #C4E538;}
+
+
+    /* footer */
+    #footer .container {height:100px; line-height:100px;}
+    #footer p {margin-right:150px; font-size:16px; float:right;}
+    #footer .sns {float:left; margin-top:35px; margin-left:150px;
+        overflow:hidden; display:inline-block;}
+    #footer .sns li {float:left; }
+    #footer .sns li a {display:block; width:45px; height:45px; border-radius:50%;
+        background-color:#1a4731;}
+    #footer .sns li a i {display:block; line-height:45px; text-align:center;
+        color:#ffffff; font-size:24px;;}
+    #footer .sns li:nth-child(2) {margin:0 20px;}
+}
+
+@media (min-width:1024px){   
+    /* header */
+    
+    #header .container {margin-top:0px;}
+    #header { width:984px; height:50px; background:#EE5A24; margin-top:20px;}
+    
+
+    #header .logoTitle {margin-bottom:33px;}
+
+    #header .logoTitle a {font-size:80px; font-weight:900; color:#9980FA;
+        text-shadow:4px 0px 1px #C4E538;}
+
+    /* footer */
+    #footer .container {height:100px; line-height:100px;}
+    #footer p {margin-right:150px; font-size:14px; float:right;}
+    #footer .sns {float:left; margin-top:20px; margin-left:150px;
+        overflow:hidden; display:inline-block;}
+    #footer .sns li {float:left; }
+    #footer .sns li a {display:block; width:60px; height:60px; border-radius:50%;
+        background-color:#1a4731;}
+    #footer .sns li a i {display:block; line-height:60px; text-align:center;
+        color:#ffffff; font-size:30px;;}
+    #footer .sns li:nth-child(2) {margin:0 20px;}
+    #footer .copy{font-size:10px;}
+}
